@@ -257,6 +257,7 @@ export default function HomePage({ beers: initialBeers }: HomePageProps) {
             size={"lg"}
             px={12}
             isDisabled={isLoadMoreDisabled}
+            isLoading={isLoadingMore}
           >
             Load More
           </Button>
